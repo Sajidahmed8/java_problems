@@ -73,7 +73,7 @@ class Solution
         int p2 = 0;
         for(int ele : arr){
             int temp = p1;
-            p1 = Math.max(p2 + ele , p1);
+            p1 = Math.max( p2 + ele , p1);
             p2 = temp;
         }
         return p1;
